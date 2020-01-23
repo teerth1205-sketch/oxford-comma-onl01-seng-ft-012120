@@ -6,8 +6,8 @@ if array.length == 1
 elsif array.length == 2
   array.join(" and ")
 else array.length > 2
-   array.join(", ") array[-1].prepend("and ") &&
-	array.join(", ")
+   array.join(", ") && array[-1].prepend("and ")
+
 end
   
 end
